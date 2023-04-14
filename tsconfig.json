@@ -18,6 +18,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "comps/Layout.jsx", "comps/Navbar.jsx", "comps/Footer.jsx", "src/pages/ninjas/index.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "comps/Layout.jsx", "comps/Navbar.jsx", "comps/Footer.jsx", "src/pages/ninjas/index.jsx", "src/pages/ninjas/[id].jsx"],
   "exclude": ["node_modules"]
 }
