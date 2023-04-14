@@ -15,10 +15,10 @@ const Ninjas = ({ninjas}) => {
     return (
         <>
             <Head>
-                <title>Ninjas | All Ninjas</title>
+                <title>Profiler | All Profiles</title>
             </Head>
             <div>
-                <h1>Ninja List</h1>
+                <h1>Profile List</h1>
                 { ninjas.map(ninja => (
                     <Link href={"/ninjas/" + ninja.id } key={ninja.id}>
                         <div className={styles.single}>

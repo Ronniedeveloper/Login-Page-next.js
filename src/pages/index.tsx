@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ninjas | Home</title>
+        <title>Profiler | Home</title>
       </Head>
       <div>
         <h1 className={styles.title}>The Profiler for your profile</h1>
@@ -24,7 +24,7 @@ export default function Home() {
             lost one and run away from one his aluta the great
           </p>
         <Link href={"/ninjas"} className={styles.btn}>
-          Ninjas
+          Profiles
         </Link>
       </div>
     </>
